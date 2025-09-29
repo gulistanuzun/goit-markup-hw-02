@@ -50,6 +50,9 @@ a {
 
 .effective {
   background-color: #2e2f42;
+}
+
+.effective > h1 {
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
