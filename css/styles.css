@@ -1,6 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -9,6 +11,24 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.container {
+  width: 1158px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-top: 24px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -24,6 +44,12 @@ a {
 
 .logo > .web {
   color: #4d5ae5;
+}
+
+.links {
+  display: flex;
+  gap: 40px;
+  margin-left: 76px;
 }
 
 .links > li > a {
@@ -42,6 +68,11 @@ a {
   color: #404bbf;
 }
 
+.address {
+  display: flex;
+  gap: 40px;
+}
+
 .address > li > a,
 .vision > li > p {
   font-size: 16px;
@@ -49,7 +80,12 @@ a {
 }
 
 .effective {
+  padding: 80px 472px;
   background-color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .effective > h1 {
@@ -82,6 +118,7 @@ a {
 
 .our-team {
   background-color: #f4f4fd;
+  padding-top: 40px;
 }
 
 .our-team > h2,
@@ -92,6 +129,13 @@ a {
   line-height: 1.5;
   font-style: bold;
   letter-spacing: 0.02em;
+}
+
+.people {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 32px;
 }
 
 .people > li > img {
